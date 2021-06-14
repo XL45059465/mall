@@ -1,19 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <hello-world/>
+  <main-tab-bar />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainTabBar from "components/content/mainTabbar/MainTabbar";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    MainTabBar,
+  },
+};
 </script>
 
 <style>
-
 </style>
